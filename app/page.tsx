@@ -5,12 +5,10 @@ import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar' // 👈 Make sure you have this
 import About from '@/components/About'
 import EducationTimeline from '@/components/Education'
-// import PhotoGallery from '@/components/Photo'
 import ProjectScroll from '@/components/projects'
 import SkillsScroll from '@/components/skills'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
-// import PhotoGallery from '@/components/PhotoGallery'
 import '../app/globals.css'
 
 export default function Home() {
@@ -44,7 +42,6 @@ export default function Home() {
 
       <SkillsScroll/>
       <Contact/>
-      {/* <PhotoGallery/> */}
       <Footer/>
       
     </div>

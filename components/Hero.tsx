@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { Typewriter } from 'react-simple-typewriter'
-import { useRef } from 'react'
 import Sidebar from './sidebar'
 
 
@@ -43,7 +42,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-5xl font-bold mb-4"
         >
-          I'm Saketh Reddy Kommareddy
+          I&apos;m Saketh Reddy Kommareddy
         </motion.h1>
 
         <motion.h2
@@ -56,7 +55,7 @@ export default function Hero() {
             words={[
               'I build smart things',
               'I fabricate new ideas',
-              'I’m Machine learning enthusiast',
+              'Im Machine learning enthusiast',
               'I’m a developer',
             ]}
             loop={0}
