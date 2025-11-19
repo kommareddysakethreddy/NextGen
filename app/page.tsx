@@ -10,7 +10,7 @@ import ProjectScroll from '@/components/projects'
 import SkillsScroll from '@/components/skills'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
-import PhotoGallery from '@/components/PhotoGallery'
+// import PhotoGallery from '@/components/PhotoGallery'
 import '../app/globals.css'
 
 export default function Home() {
